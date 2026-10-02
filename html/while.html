@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paullo-Marccos">
+    <meta name="google" content="notranslate">
+    <title>While</title>
+</head>
+<body>
+    <h2>Escolha a quantidade de vezes que deseja repetir</h2>
+        <p>While</p>
+
+
+        <div name="repetir" id="repetir">
+
+         <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite um texto"></textarea><br><br>
+         <input type="text" id="qtd" placeholder="Digite uma quantidade"><br><br>
+         
+
+         <input type="button" value="Repetir" onclick="repetir()"><br>
+         <p style="font-size: 30px;" id="resultadoRepetir"></p>
+         </div> 
+
+         <h2>Calculo de media personalizavel</h2>
+         <p>Media com do While</p>
+
+
+        <div name="mediaEscolar" id="mediaEscolar">
+         <input type="text" id="qtdnotas" placeholder="Digite a quantidade de notas" oninput="containerBlocos()"><br><br>
+         <div id="containerBlocos"></div><br>
+
+         <input type="text" id="minimoWhile" placeholder="Digite a media minima"><br><br>
+         <!-- EU ESPERO QUE FDUNCIONE, AQUI DEVE APARECER OS CONTEINERS PARA COLOCAR QUNATOS ESPACOS DE NOTAS QUE O USUARIO DESEJAR -->
+         
+         
+         <input type="button" value="Calcular Média" onclick="mediaEscolar()"><br>
+         <p style="font-size: 30px;" id="resultadoMediaWhile"></p>
+        </div>
+
+
+
+
+
+        <h2>Agora de forma mais simples</h2>
+
+            <span id="palavra" onclick="pedirTexto()" style="cursor: pointer; font-size: 20px; color: blue; text-decoration: underline;">Clique aqui</span>
+
+            <p style="font-size: 30px;" id="resultado1"></p>
+
+            <h2>AGORA MUITO MAIS SIMPLES!</h2>
+            <a href="https://www.youtube.com/watch?v=hPr-Yc92qaY" target="_blank" style="font-size: 50px; color: red; text-decoration: underline;">Clique aqui</a>
+            <br>
+        <a style="font-size: 30px;" href="../index.html">Voltar</a>
+</body>
+<script src="../java/while.js"></script>
+</html>

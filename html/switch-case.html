@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paullo-Marccos">
+    <meta name="google" content="notranslate">
+    <title>switch-case</title>
+</head>
+<body>
+    <h2>Escolha o seu cargo</h2>
+        <p>Switch/case</p>
+        
+        <select name="cargo" id="cargo">
+            <option selected disabled value="0">Selecione o cargo</option>
+            <option value="Gerente">Gerente</option>
+            <option value="Supervisor">Supervisor</option>
+            <option value="Analista">Analista</option>
+            <option value="Programador">Programador</option>
+        </select>
+        <input type="text" id="salario" placeholder="Salário"><br><br>
+        <input type="button" value="Verificar Cargo" onclick="verificarCargo()"> <br>   
+        <p style="font-size: 30px;" id="resultadoCargo"></p>
+        <br>
+        <a style="font-size: 30px;" href="../index.html">Voltar</a>
+    
+</body>
+<script src="../java/switch-case.js"></script>
+</html>
